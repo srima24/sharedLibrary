@@ -13,13 +13,7 @@ echo "\033[1;32m [Success] \033[0m "
 }
 
 
-def call(int exit_code = 0) {
-if (exit_code == 0)
-{
-    success() 
-}
-else if (exit_code > 0)
-{
-    error()
-}
+def call(String str = "hello") {
+success()
+ error()
 }
