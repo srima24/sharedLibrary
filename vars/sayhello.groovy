@@ -16,4 +16,6 @@ echo "\033[1;32m[Success] \033[0m "
 
 def call(String name = 'ansi color') {
   echo "${name}"
+  error()
+  success()
 }
